@@ -1,11 +1,14 @@
-import Image from "next/image";
+import Hero from "@/components/landing-page/hero";
 
 export default function Home() {
   return (
-   <>
-   <div className="bg-bg-primary">
-    Hellow world
-   </div>
-   </>
+    <div className="max-w-7xl mx-auto h-screen">
+      <Hero />
+      {/* <Header/>
+    <VideoExplanation/>
+    <Pricing/>
+    <FAQ/> */}
+    </div>
   );
 }
+ 
